@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="bg-white min-h-screen flex flex-col justify-center items-center">
+    <div className="backdrop-blur-sm bg-white/90 min-h-screen flex flex-col justify-center items-center ">
       <h1 className="text-dark text-4xl font-bold mb-4">Under construction</h1>
       <p className="text-dar text-lg mb-4 p-5">We are building the Courier Finders website. Leave us your email to receive updates on our progress</p>
       <div className='flex'>
@@ -24,8 +24,6 @@ export default function Home() {
           </a>
         </button>
       </div>
-
-
     </div>
   );
 
