@@ -16,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-       <head><link rel="icon" href="/favicon.ico" /></head>
+       <head><link rel="svg" href="/icon.svg" /></head>
       <body className={inter.className}>{children}</body>
     </html>
   )
