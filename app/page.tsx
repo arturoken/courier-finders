@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="backdrop-blur-sm bg-white/90 min-h-screen flex flex-col justify-center items-center ">
       <h1 className="text-dark text-4xl font-bold mb-4">Under construction</h1>
-      <p className="text-dar text-lg mb-4 p-5">We are building the Courier Finders website. Leave us your email to receive updates on our progress</p>
+      <p className="text-dar text-lg mb-4 p-5">We are building the Courier Finders website. Follow us on our networks to stay tuned for the launch of the project</p>
       <div className='flex'>
         <button className="bg-gray-800 m-3 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded-lg">
           <a href="https://github.com/arturoken/courier-finders" target="_blank">
