@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-
+import { Analytics } from "@vercel/analytics/react"
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -35,6 +35,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-red-50 relative`}>
           <div className="fixed inset-0 bg-[url('../public/image-1.png')] blur-sm z-0"></div>
           <main className="relative z-10">{children}</main>
+          <Analytics />
         </body>
     </html>
   )
