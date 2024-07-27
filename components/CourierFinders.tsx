@@ -15,10 +15,10 @@ const CourierFinders: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-blue-100 to-blue-200 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen  flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-3xl bg-white rounded-lg shadow-xl p-8 space-y-8">
         <header className="text-center">
-          <h1 className="text-4xl font-bold text-blue-600 mb-2">CourierFinders</h1>
+          <h1 className="text-4xl font-bold text-black-600 mb-2">CourierFinders</h1>
           <p className="text-gray-600">Rastrea tu paquete en cualquier parte del mundo</p>
         </header>
 
@@ -36,7 +36,7 @@ const CourierFinders: React.FC = () => {
               isSearching ? 'animate-pulse' : ''
             }`}
             disabled={isSearching}
-            variant='primary'
+            variant='black'
           >
             {isSearching ? 'Buscando...' : 'Buscar'}
             <Search className="ml-2" />

@@ -32,9 +32,10 @@ export default function RootLayout({
         <link rel="icon" href="/icon.svg" type="image/svg+xml" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </head>
-      <body className={`${inter.className} bg-gray-50`}>
-        <main>{children}</main>
-      </body>
+      <body className={`${inter.className} bg-red-50 relative`}>
+          <div className="fixed inset-0 bg-[url('../public/image-1.png')] blur-sm z-0"></div>
+          <main className="relative z-10">{children}</main>
+        </body>
     </html>
   )
 }
